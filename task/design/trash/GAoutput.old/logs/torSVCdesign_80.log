@@ -1,0 +1,213 @@
+Starting Model 80
+OptimizeGA
+===============================
+Saturation threshold = 
+Setting up variables
+You entered 2 conditions  (event types) that will each be modeled with a regessor. 
+ Note that if you enter 0 as a condition number, those events will not be modeled
+ (they are assumed to be rest/inter-stimulus interval periods)
+
+Contrasts entered. You entered matrix of 3 contrasts, with weights across 4 conditions.
+ Contrasts:
+     1     1    -1    -1
+     1     0    -1     0
+     0     1     0    -1
+ ...adding one column to contrast matrix with weights of 0, to model the intercept
+You entered a contrast weight vector across 3 contrasts
+ 	...Using rests of length 1 and resting every 4
+================== Parameters ======================
+     Total stimuli in scan      : 60
+     Fixed rest length in ITIs  : 1
+     Fixed Rest stimuli in scan : 11
+     Num blank intervals        : 9
+     Num of task conds          : 2
+     Num stimuli each cond      : 20  20
+====================================================
+	...generating lists of organisms
+	...USING TRANS2BLOCK >
+     freqConditions = 0.2         0.2         0.2         0.2
+     conditions = 1  2  3  4
+REST INTERVALS: not used (to use, freqCond should be one longer than conditions
+  ...randomizing organism start state
+	...restMatrix is 20 X 40
+ans =
+     4     4     4     4     4     4     4     4     4     4
+     4     4     4     4     4     4     4     4     4     4
+     4     4     4     4     4     4     4     4     4     4
+     4     4     4     4     4     4     4     4     4     4
+     4     4     4     4     4     4     4     4     4     4
+======== Num stimuli, averaged across lists (before instruction/rest stimuli) ========
+		Condition 0: 9 stimuli, 15% of total stimuli
+		Condition 1: 20 stimuli, 33.3333% of total stimuli
+		Condition 2: 20 stimuli, 33.3333% of total stimuli
+		Condition 3: 0 stimuli, 0% of total stimuli
+		Condition 4: 0 stimuli, 0% of total stimuli
+======================================================================================
+best of generation 1 / cbal. = 94.4416 / Wtd. con eff = 2.658 / Wtd. HRF eff = 0.57283 / Pop var. = 0.86458 / time = 0.74
+best of generation 2 / cbal. = 94.6284 / Wtd. con eff = 2.6725 / Wtd. HRF eff = 0.6793 / Pop var. = 0.8359 / time = 0.72
+best of generation 3 / cbal. = 94.8882 / Wtd. con eff = 2.838 / Wtd. HRF eff = 0.67797 / Pop var. = 0.81756 / time = 0.74
+best of generation 4 / cbal. = 94.7283 / Wtd. con eff = 2.8698 / Wtd. HRF eff = 0.7532 / Pop var. = 0.806 / time = 0.72
+best of generation 5 / cbal. = 94.5391 / Wtd. con eff = 2.9417 / Wtd. HRF eff = 0.78196 / Pop var. = 0.79702 / time = 0.78
+best of generation 6 / cbal. = 94.4707 / Wtd. con eff = 3.2521 / Wtd. HRF eff = 0.94678 / Pop var. = 0.75074 / time = 0.74
+best of generation 7 / cbal. = 94.4707 / Wtd. con eff = 3.2521 / Wtd. HRF eff = 0.94678 / Pop var. = 0.75429 / time = 0.73
+best of generation 8 / cbal. = 94.4707 / Wtd. con eff = 3.2521 / Wtd. HRF eff = 0.94678 / Pop var. = 0.68085 / time = 0.73
+best of generation 9 / cbal. = 94.3679 / Wtd. con eff = 3.2879 / Wtd. HRF eff = 0.93406 / Pop var. = 0.65004 / time = 0.72
+best of generation 10 / cbal. = 94.4707 / Wtd. con eff = 3.2521 / Wtd. HRF eff = 0.94678 / Pop var. = 0.61469 / time = 0.73
+best of generation 11 / cbal. = 94.6458 / Wtd. con eff = 3.2307 / Wtd. HRF eff = 0.89837 / Pop var. = 0.55823 / time = 0.72
+best of generation 12 / cbal. = 94.8661 / Wtd. con eff = 3.3841 / Wtd. HRF eff = 0.76519 / Pop var. = 0.49544 / time = 0.73
+best of generation 13 / cbal. = 94.8661 / Wtd. con eff = 3.3841 / Wtd. HRF eff = 0.76519 / Pop var. = 0.46241 / time = 0.74
+best of generation 14 / cbal. = 94.8661 / Wtd. con eff = 3.3841 / Wtd. HRF eff = 0.76519 / Pop var. = 0.48058 / time = 0.73
+best of generation 15 / cbal. = 95.1319 / Wtd. con eff = 3.3624 / Wtd. HRF eff = 0.75336 / Pop var. = 0.51214 / time = 0.73
+best of generation 16 / cbal. = 94.5925 / Wtd. con eff = 3.421 / Wtd. HRF eff = 0.77125 / Pop var. = 0.49956 / time = 0.78
+best of generation 17 / cbal. = 94.7887 / Wtd. con eff = 3.4876 / Wtd. HRF eff = 0.96147 / Pop var. = 0.47946 / time = 0.73
+best of generation 18 / cbal. = 94.7887 / Wtd. con eff = 3.4876 / Wtd. HRF eff = 0.96147 / Pop var. = 0.48445 / time = 0.73
+best of generation 19 / cbal. = 95.0352 / Wtd. con eff = 3.5129 / Wtd. HRF eff = 0.88185 / Pop var. = 0.45403 / time = 0.74
+best of generation 20 / cbal. = 94.7647 / Wtd. con eff = 3.5944 / Wtd. HRF eff = 1.2087 / Pop var. = 0.40496 / time = 0.73
+best of generation 21 / cbal. = 94.7647 / Wtd. con eff = 3.5944 / Wtd. HRF eff = 1.2087 / Pop var. = 0.38258 / time = 0.74
+best of generation 22 / cbal. = 94.7647 / Wtd. con eff = 3.5944 / Wtd. HRF eff = 1.2087 / Pop var. = 0.42183 / time = 0.76
+best of generation 23 / cbal. = 94.7647 / Wtd. con eff = 3.5944 / Wtd. HRF eff = 1.2087 / Pop var. = 0.40798 / time = 0.74
+best of generation 24 / cbal. = 94.7647 / Wtd. con eff = 3.5944 / Wtd. HRF eff = 1.2087 / Pop var. = 0.35418 / time = 0.74
+best of generation 25 / cbal. = 94.7647 / Wtd. con eff = 3.5944 / Wtd. HRF eff = 1.2087 / Pop var. = 0.44038 / time = 0.73
+best of generation 26 / cbal. = 94.7647 / Wtd. con eff = 3.5944 / Wtd. HRF eff = 1.2087 / Pop var. = 0.43362 / time = 0.73
+best of generation 27 / cbal. = 94.7647 / Wtd. con eff = 3.5944 / Wtd. HRF eff = 1.2087 / Pop var. = 0.41988 / time = 0.75
+best of generation 28 / cbal. = 95.065 / Wtd. con eff = 3.5855 / Wtd. HRF eff = 1.1991 / Pop var. = 0.35579 / time = 0.73
+best of generation 29 / cbal. = 95.065 / Wtd. con eff = 3.5855 / Wtd. HRF eff = 1.1991 / Pop var. = 0.45796 / time = 0.73
+best of generation 30 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.42088 / time = 0.73
+best of generation 31 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.3945 / time = 0.74
+best of generation 32 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.44524 / time = 0.75
+best of generation 33 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.43021 / time = 0.77
+best of generation 34 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.40688 / time = 0.73
+best of generation 35 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.40679 / time = 0.73
+best of generation 36 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.34336 / time = 0.73
+best of generation 37 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.37702 / time = 0.73
+best of generation 38 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.47643 / time = 0.74
+best of generation 39 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.38217 / time = 0.74
+best of generation 40 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.465 / time = 0.73
+best of generation 41 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.41774 / time = 0.73
+best of generation 42 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.34311 / time = 0.75
+best of generation 43 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.40744 / time = 0.76
+best of generation 44 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.36804 / time = 0.77
+best of generation 45 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.43019 / time = 0.74
+best of generation 46 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.36619 / time = 0.73
+best of generation 47 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.44103 / time = 0.74
+best of generation 48 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.39758 / time = 0.74
+best of generation 49 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.44716 / time = 0.75
+best of generation 50 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.40552 / time = 0.74
+best of generation 51 / cbal. = 94.811 / Wtd. con eff = 3.6628 / Wtd. HRF eff = 1.3056 / Pop var. = 0.33534 / time = 0.72
+best of generation 52 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.41503 / time = 0.76
+best of generation 53 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.34423 / time = 0.74
+best of generation 54 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.44296 / time = 0.75
+best of generation 55 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.39727 / time = 0.76
+best of generation 56 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.46722 / time = 0.74
+best of generation 57 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.39546 / time = 0.73
+best of generation 58 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.45574 / time = 0.73
+best of generation 59 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.4084 / time = 0.74
+best of generation 60 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.36304 / time = 0.75
+best of generation 61 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.43485 / time = 0.73
+best of generation 62 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.38521 / time = 0.73
+best of generation 63 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.41662 / time = 0.77
+best of generation 64 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.37948 / time = 0.75
+best of generation 65 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.45519 / time = 0.76
+best of generation 66 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.42604 / time = 0.75
+best of generation 67 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.3813 / time = 0.74
+best of generation 68 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.41061 / time = 0.74
+best of generation 69 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.37878 / time = 0.73
+best of generation 70 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.45268 / time = 0.74
+best of generation 71 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.35254 / time = 0.78
+best of generation 72 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.42948 / time = 0.75
+best of generation 73 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.34729 / time = 0.74
+best of generation 74 / cbal. = 94.889 / Wtd. con eff = 3.6467 / Wtd. HRF eff = 1.4762 / Pop var. = 0.43326 / time = 0.74
+best of generation 75 / cbal. = 94.9285 / Wtd. con eff = 3.6493 / Wtd. HRF eff = 1.3934 / Pop var. = 0.42616 / time = 0.74
+best of generation 76 / cbal. = 94.9285 / Wtd. con eff = 3.6493 / Wtd. HRF eff = 1.3934 / Pop var. = 0.38607 / time = 0.75
+best of generation 77 / cbal. = 94.9285 / Wtd. con eff = 3.6493 / Wtd. HRF eff = 1.3934 / Pop var. = 0.43896 / time = 0.74
+best of generation 78 / cbal. = 94.9285 / Wtd. con eff = 3.6493 / Wtd. HRF eff = 1.3934 / Pop var. = 0.41601 / time = 0.74
+best of generation 79 / cbal. = 94.9206 / Wtd. con eff = 3.6234 / Wtd. HRF eff = 1.9283 / Pop var. = 0.39336 / time = 0.73
+best of generation 80 / cbal. = 94.9206 / Wtd. con eff = 3.6234 / Wtd. HRF eff = 1.9283 / Pop var. = 0.47535 / time = 0.73
+best of generation 81 / cbal. = 94.9206 / Wtd. con eff = 3.6234 / Wtd. HRF eff = 1.9283 / Pop var. = 0.44244 / time = 0.73
+best of generation 82 / cbal. = 94.9285 / Wtd. con eff = 3.6493 / Wtd. HRF eff = 1.3934 / Pop var. = 0.32788 / time = 0.79
+best of generation 83 / cbal. = 94.9285 / Wtd. con eff = 3.6493 / Wtd. HRF eff = 1.3934 / Pop var. = 0.37508 / time = 0.74
+best of generation 84 / cbal. = 94.9285 / Wtd. con eff = 3.6493 / Wtd. HRF eff = 1.3934 / Pop var. = 0.41132 / time = 0.73
+best of generation 85 / cbal. = 94.9285 / Wtd. con eff = 3.6493 / Wtd. HRF eff = 1.3934 / Pop var. = 0.38503 / time = 0.74
+best of generation 86 / cbal. = 94.9285 / Wtd. con eff = 3.6493 / Wtd. HRF eff = 1.3934 / Pop var. = 0.40796 / time = 0.74
+best of generation 87 / cbal. = 94.9285 / Wtd. con eff = 3.6493 / Wtd. HRF eff = 1.3934 / Pop var. = 0.34551 / time = 0.79
+best of generation 88 / cbal. = 94.9285 / Wtd. con eff = 3.6493 / Wtd. HRF eff = 1.3934 / Pop var. = 0.38996 / time = 0.74
+best of generation 89 / cbal. = 94.9285 / Wtd. con eff = 3.6493 / Wtd. HRF eff = 1.3934 / Pop var. = 0.48149 / time = 0.72
+best of generation 90 / cbal. = 94.9285 / Wtd. con eff = 3.6493 / Wtd. HRF eff = 1.3934 / Pop var. = 0.46031 / time = 0.75
+best of generation 91 / cbal. = 94.9285 / Wtd. con eff = 3.6493 / Wtd. HRF eff = 1.3934 / Pop var. = 0.34309 / time = 0.73
+best of generation 92 / cbal. = 95.0895 / Wtd. con eff = 3.6146 / Wtd. HRF eff = 1.5565 / Pop var. = 0.41653 / time = 0.74
+best of generation 93 / cbal. = 94.9285 / Wtd. con eff = 3.6493 / Wtd. HRF eff = 1.3934 / Pop var. = 0.35112 / time = 0.78
+best of generation 94 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.39087 / time = 0.74
+best of generation 95 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.43026 / time = 0.74
+best of generation 96 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.38706 / time = 0.75
+best of generation 97 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.45473 / time = 0.74
+best of generation 98 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.42519 / time = 0.76
+best of generation 99 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.37318 / time = 0.74
+best of generation 100 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.45844 / time = 0.74
+best of generation 101 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.40719 / time = 0.72
+best of generation 102 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.35031 / time = 0.74
+best of generation 103 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.40997 / time = 0.73
+best of generation 104 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.33182 / time = 0.78
+best of generation 105 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.40888 / time = 0.73
+best of generation 106 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.36289 / time = 0.74
+best of generation 107 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.44906 / time = 0.74
+best of generation 108 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.41399 / time = 0.74
+best of generation 109 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.34342 / time = 0.76
+best of generation 110 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.41276 / time = 0.73
+best of generation 111 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.39598 / time = 0.74
+best of generation 112 / cbal. = 94.8969 / Wtd. con eff = 3.6512 / Wtd. HRF eff = 1.4693 / Pop var. = 0.4653 / time = 0.75
+best of generation 113 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.42403 / time = 0.74
+best of generation 114 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.3383 / time = 0.74
+best of generation 115 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.38532 / time = 0.79
+best of generation 116 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.45897 / time = 0.74
+best of generation 117 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.44534 / time = 0.74
+best of generation 118 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.40055 / time = 0.74
+best of generation 119 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.34235 / time = 0.73
+best of generation 120 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.38093 / time = 0.78
+best of generation 121 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.47705 / time = 0.73
+best of generation 122 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.4454 / time = 0.74
+best of generation 123 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.37859 / time = 0.76
+best of generation 124 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.39687 / time = 0.74
+best of generation 125 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.45669 / time = 0.73
+best of generation 126 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.43518 / time = 0.77
+best of generation 127 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.38981 / time = 0.74
+best of generation 128 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.43768 / time = 0.74
+best of generation 129 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.41847 / time = 0.74
+best of generation 130 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.36815 / time = 0.74
+best of generation 131 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.41694 / time = 0.78
+best of generation 132 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.36442 / time = 0.74
+best of generation 133 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.43664 / time = 0.73
+best of generation 134 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.39806 / time = 0.74
+best of generation 135 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.44662 / time = 0.73
+best of generation 136 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.40403 / time = 0.75
+best of generation 137 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.36651 / time = 0.74
+best of generation 138 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.38748 / time = 0.74
+best of generation 139 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.47012 / time = 0.73
+best of generation 140 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.39476 / time = 0.74
+best of generation 141 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.46258 / time = 0.73
+best of generation 142 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.37772 / time = 0.79
+best of generation 143 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.43078 / time = 0.74
+best of generation 144 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.37016 / time = 0.74
+best of generation 145 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.42879 / time = 0.74
+best of generation 146 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.42022 / time = 0.73
+best of generation 147 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.35529 / time = 0.76
+best of generation 148 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.42221 / time = 0.74
+best of generation 149 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.36211 / time = 0.75
+best of generation 150 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.43123 / time = 0.74
+best of generation 151 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.41373 / time = 0.73
+best of generation 152 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.39981 / time = 0.76
+best of generation 153 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.47441 / time = 0.77
+best of generation 154 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.43704 / time = 0.74
+best of generation 155 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.39838 / time = 0.74
+best of generation 156 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.44483 / time = 0.74
+best of generation 157 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.3777 / time = 0.75
+best of generation 158 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.43039 / time = 0.76
+best of generation 159 / cbal. = 94.5319 / Wtd. con eff = 3.6918 / Wtd. HRF eff = 1.8358 / Pop var. = 0.34155 / time = 0.73
+saving workspace as GAresults.mat
+M = 
+     origlist: [49x1 double]
+     restlist: [20x1 double]
+     stimlist: [60x1 double]
+           ga: [1x1 struct]
+    bestLists: [60x159 uint8]
+         date: '11-9-2014'
+optimizeGA done: 120.4 s

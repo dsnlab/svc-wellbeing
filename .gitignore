@@ -1,0 +1,17 @@
+# Ignore task output
+task/output/*
+# Ignore generated onset .txt files
+bx/onset_files
+bx/onset_files/*
+task/input.old/*
+# Ignore subInfoMats
+task/input/*input.txt
+task/input/*mat
+
+# Temp files
+
+*.m~
+._*
+model*log
+*/.DS_Store
+.DS_Store

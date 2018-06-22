@@ -1,0 +1,18 @@
+happy,1,0,2
+satisfied with life,1,0,5
+live a purposeful life,1,0,6
+joyful,1,0,2
+achieve goals,1,0,3
+optimistic,1,0,4
+live a meaningful life,1,0,6
+hopeful,1,0,2
+love life,1,0,2
+interested in life,1,0,5
+have direction,1,0,4
+capable,1,0,3
+positive,1,0,3
+like myself,1,0,3
+cheerful,1,0,2
+proud,1,0,1
+full of energy,1,0,5
+engaged in tasks,1,0,4

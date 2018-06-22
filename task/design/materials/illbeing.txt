@@ -1,0 +1,18 @@
+anxious,3,0,2
+overwhelmed,3,0,3
+nervous,3,0,2
+unable to cope,3,0,5
+feel rejected,3,0,4
+depressed,3,0,2
+stressed,3,0,1
+sad,3,0,1
+afraid of being hurt,3,0,6
+feel worthless,3,0,3
+worn out,3,0,2
+tired,3,0,2
+fearful,3,0,2
+feel unimportant,3,0,5
+unhappy,3,0,3
+lonely,3,0,2
+feel invisible,3,0,5
+feel useless,3,0,3
