@@ -115,7 +115,7 @@ screenNumber = max(Screen('Screens'));
 [win,winBox] = PsychImaging('OpenWindow',screenNumber,svc.stim.bg);
 
 % flip to get ifi
-%HideCursor();
+HideCursor();
 Screen('Flip', win);
 svc.stim.ifi = Screen('GetFlipInterval', win);
 Screen('TextSize', win, 50);
@@ -298,7 +298,7 @@ if runNum ~= 0
     save(subOutputMat,'task');
 end
 
-KbStrokeWait(internalKeyboardDevice);
+WaitSecs(5)
 Screen('Close', win);
 fprintf('End Time: %.2f\n', EndTime);
 
