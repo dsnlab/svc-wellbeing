@@ -1,4 +1,4 @@
-function [task] = runSVC(subNumArg, waveNumArg, runNumArg)
+function [task] = runSVC(studyArg, subNumArg, waveNumArg, runNumArg)
 % % RUNSVC.m $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % usage: [ task ] = runSVC( subNumArg, waveNumArg, runNumArg )
 %
@@ -26,26 +26,31 @@ function [task] = runSVC(subNumArg, waveNumArg, runNumArg)
 %--> (subID)_wave(waveNum)_info.mat = structure w/ subject specific info
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Set dropbox path for copying
+dropboxDir = '~/Dropbox (PfeiBer Lab)/FreshmanProject/tasks/SVC/output';
+
+%% Get subject info
 switch nargin
     case 0
         clear all;
-        prompt = {...
-            'sub num: ',...
-            'wave num: ',...
-            'run num: '};
-        dTitle = 'Input Subject, Wave, and Run Number';
+        prompt={'Study code'; ...
+                'Subject number (3 digits)'; ...
+                'Run number (1-2)'};
+        dTitle = 'Subject Info';
         nLines = 1;
         % defaults
-        def = {'', '', ''};
+        def = {'FP', '', '',};
         manualInput = inputdlg(prompt,dTitle,nLines,def);
-        subNum = str2double(manualInput{1});
-        waveNum = str2double(manualInput{2});
+        study = manualInput{1};
+        subNum = str2double(manualInput{2});
         runNum = str2double(manualInput{3});
+        waveNum = 1;
     case 1
-        error('Must specify 0 or 3 arguments');
+        error('Must specify 0 or 4 arguments');
     case 2
-        error('Must specify 0 or 3 arguments');
+        error('Must specify 0 or 4 arguments');
     case 3
+        study = studyArg;
         subNum = subNumArg;
         waveNum = waveNumArg;
         runNum = runNumArg;
@@ -55,11 +60,11 @@ Screen('Preference', 'SkipSyncTests', 1);
 
 %% get subID from subNum
 if subNum < 10
-    subID = ['FP00',num2str(subNum)];
+    subID = [study,'00',num2str(subNum)];
 elseif subNum < 100
-    subID = ['FP0',num2str(subNum)];
+    subID = [study,'0',num2str(subNum)];
 else
-    subID = ['FP',num2str(subNum)];
+    subID = [study,num2str(subNum)];
 end
 
 % get thisRun from runNum
@@ -301,5 +306,20 @@ end
 WaitSecs(5)
 Screen('Close', win);
 fprintf('End Time: %.2f\n', EndTime);
+
+%% Copy files to dropbox
+dropboxDir = '~/Dropbox (PfeiBer Lab)/FreshmanProject/tasks/SVC/output';
+subDir = fullfile(dropboxDir,subID);
+
+if ~exist(subDir)
+    mkdir(subDir);
+    copyfile(subOutputMat, subDir);
+    copyfile(outputTextFile, subDir);
+    fprintf('Output files copied to %s\n',subDir);
+else
+    copyfile(subOutputMat, subDir);
+    copyfile(outputTextFile, subDir);
+    fprintf('Output files copied to %s\n',subDir);
+end
 
 return
