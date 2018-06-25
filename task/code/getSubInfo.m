@@ -12,9 +12,9 @@ studyDir = uigetdir('../svc','Select study directory');
 
 % interactive dialog to get demographic info
 prompt = {...
-'subID (number only): ',...,
-'experimentor: '...,
-'wave: '};
+'Subject number (3 digits)',...,
+'Experimenter'...,
+'Wave'};
 
 dTitle = 'define subject specific variables';
 nLines = 1;

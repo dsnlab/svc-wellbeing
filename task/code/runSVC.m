@@ -120,7 +120,7 @@ screenNumber = max(Screen('Screens'));
 [win,winBox] = PsychImaging('OpenWindow',screenNumber,svc.stim.bg);
 
 % flip to get ifi
-HideCursor();
+%HideCursor();
 Screen('Flip', win);
 svc.stim.ifi = Screen('GetFlipInterval', win);
 Screen('TextSize', win, 50);
