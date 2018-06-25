@@ -26,26 +26,31 @@ for deviceCount=1:length(devices)
     keys.bbox = deviceCount;
     keys.trigger = 52; % trigger pulse / TR signal key ('`') for LCNI scanner
     fprintf('button box detected\n using device #%d: %s\n',deviceCount,devices(deviceCount).product);
-    break,
     detectButtonBox = true;
     deviceNum = deviceCount;
-  % iMac setup has the usagename 'Keyboard' and the manufacturer 'Apple'
-  elseif strcmp(devices(deviceCount).usageName,'Keyboard') && (strcmp(devices(deviceCount).manufacturer,'Apple') || strcmp(devices(deviceCount).manufacturer,'Apple Inc.'))
-    keys.bbox = deviceCount;
-    keys.trigger = KbName('SPACE'); % use spacebar as KbTrigger
-    fprintf('Using Device #%d: external %s\n',deviceCount,devices(deviceCount).usageName);
-    detectButtonBox = false;
-    deviceNum=deviceCount;
-    break,
-  % MacBook laptop setup has the usagename 'Keyboard' and the product 'Apple Internal Keyboard / Trackpad'
-  elseif (strcmp(devices(deviceCount).usageName,'Keyboard') && strcmp(devices(deviceCount).product,'Apple Internal Keyboard / Trackpad'))
-    keys.bbox = deviceCount;
-    keys.trigger = KbName('SPACE'); % use spacebar as KbTrigger
-    fprintf('Using Device #%d: internal %s\n',deviceCount,devices(deviceCount).usageName);
-    detectButtonBox = false;
-    deviceNum=deviceCount;
-    break,
   end
+end
+
+if detectButtonBox == false
+    for deviceCount=1:length(devices)
+      % iMac setup has the usagename 'Keyboard' and the manufacturer 'Apple'
+      if strcmp(devices(deviceCount).usageName,'Keyboard') && (strcmp(devices(deviceCount).manufacturer,'Apple') || strcmp(devices(deviceCount).manufacturer,'Apple Inc.'))
+        keys.bbox = deviceCount;
+        keys.trigger = KbName('SPACE'); % use spacebar as KbTrigger
+        fprintf('Using Device #%d: external %s\n',deviceCount,devices(deviceCount).usageName);
+        detectButtonBox = false;
+        deviceNum=deviceCount;
+        break,
+      % MacBook laptop setup has the usagename 'Keyboard' and the product 'Apple Internal Keyboard / Trackpad'
+      elseif (strcmp(devices(deviceCount).usageName,'Keyboard') && strcmp(devices(deviceCount).product,'Apple Internal Keyboard / Trackpad'))
+        keys.bbox = deviceCount;
+        keys.trigger = KbName('SPACE'); % use spacebar as KbTrigger
+        fprintf('Using Device #%d: internal %s\n',deviceCount,devices(deviceCount).usageName);
+        detectButtonBox = false;
+        deviceNum=deviceCount;
+        break,
+      end
+    end
 end
 
 if (~detectButtonBox)
