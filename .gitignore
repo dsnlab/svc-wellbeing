@@ -4,9 +4,6 @@ task/output/*
 bx/onset_files
 bx/onset_files/*
 task/input.old/*
-# Ignore subInfoMats
-task/input/*input.txt
-task/input/*mat
 
 # Temp files
 
