@@ -19,6 +19,7 @@ function [ keys ] = initKeys()
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% set up button box / keyboard
+detectButtonBox = false;
 devices=PsychHID('Devices');
 for deviceCount=1:length(devices)
   % the lcni button box has the usageName 'Keyboard' and the product 'Xkeys'
