@@ -179,11 +179,11 @@ keyList = zeros(1,256);
 keyList(svc.keys.buttons)=1;
 keyList(svc.keys.kill)=1;
 if mod(subNum,2)
-    leftKeys = svc.keys.b6; %([svc.keys.b0 svc.keys.b1 svc.keys.b2 svc.keys.b3 svc.keys.b4 svc.keys.left]);
-    rightKeys = svc.keys.b5; %([svc.keys.b5 svc.keys.b6 svc.keys.b7 svc.keys.b8 svc.keys.b9 svc.keys.right]);
-else
-    leftKeys = svc.keys.b5; %([svc.keys.b0 svc.keys.b1 svc.keys.b2 svc.keys.b3 svc.keys.b4 svc.keys.left]);
+    leftKeys = svc.keys.b7; %([svc.keys.b0 svc.keys.b1 svc.keys.b2 svc.keys.b3 svc.keys.b4 svc.keys.left]);
     rightKeys = svc.keys.b6; %([svc.keys.b5 svc.keys.b6 svc.keys.b7 svc.keys.b8 svc.keys.b9 svc.keys.right]);
+else
+    leftKeys = svc.keys.b6; %([svc.keys.b0 svc.keys.b1 svc.keys.b2 svc.keys.b3 svc.keys.b4 svc.keys.left]);
+    rightKeys = svc.keys.b7; %([svc.keys.b5 svc.keys.b6 svc.keys.b7 svc.keys.b8 svc.keys.b9 svc.keys.right]);
 end
 
 KbQueueCreate(inputDevice, keyList);
