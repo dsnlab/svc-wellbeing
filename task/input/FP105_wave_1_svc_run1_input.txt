@@ -1,36 +1,36 @@
-1,3,0.228,0,2,nervous
-2,3,0.228,0,5,unable to cope
-3,2,0.228,1,5,alienated
-4,2,0.265,0,5,comfortable with friends
-5,1,0.455,0,6,live a purposeful life
+1,3,0.228,0,2,fearful
+2,3,0.265,0,3,overwhelmed
+3,2,0.303,0,7,have trusting relationships
+4,2,0.607,0,2,trusted
+5,1,0.303,0,2,happy
 6,1,4.928,0,3,like myself
-7,4,0.303,0,2,happy
-8,4,0.228,0,2,cheerful
-9,6,0.379,0,2,depressed
-10,6,0.265,0,5,feel unimportant
-11,5,0.303,0,1,loved
-12,6,4.965,0,2,tired
-13,3,0.265,0,5,feel invisible
-14,3,0.379,0,4,feel rejected
-15,1,0.607,0,5,full of energy
-16,1,0.228,0,1,proud
-17,2,0.455,0,5,have support systems
-18,3,4.965,0,2,anxious
-19,6,0.228,0,3,overwhelmed
-20,4,0.607,0,3,capable
-21,5,0.303,0,2,well-liked
-22,5,0.265,1,3,neglected
-23,4,0.303,0,2,joyful
-24,6,5.307,0,3,unhappy
-25,2,0.379,0,3,have good friends
-26,1,0.303,0,6,live a meaningful life
-27,1,0.228,0,3,achieve goals
-28,3,0.228,0,2,lonely
-29,2,0.265,0,2,trusted
-30,2,4.965,0,3,am cared for
-31,5,0.228,0,4,feel encouraged
-32,5,0.303,0,6,have warm relationships
-33,6,0.265,0,1,stressed
-34,5,0.228,1,4,isolated
-35,4,0.265,0,5,satisfied with life
-36,4,5.079,0,4,optimistic
+7,4,0.265,0,5,satisfied with life
+8,4,0.228,0,2,joyful
+9,6,0.265,0,5,unable to cope
+10,6,0.228,0,2,lonely
+11,5,0.265,0,4,feel encouraged
+12,6,4.965,0,3,feel worthless
+13,3,0.228,0,5,feel unimportant
+14,3,0.228,0,2,anxious
+15,1,0.265,0,3,positive
+16,1,0.303,0,2,hopeful
+17,2,0.379,0,5,comfortable with friends
+18,3,5.003,0,2,nervous
+19,6,0.265,0,4,feel rejected
+20,4,0.303,0,1,proud
+21,5,0.228,0,3,helped by friends
+22,5,0.265,0,3,am cared for
+23,4,0.303,0,6,live a purposeful life
+24,6,5.155,0,1,stressed
+25,2,0.228,0,3,have good friends
+26,1,0.228,0,4,engaged in tasks
+27,1,0.607,0,3,achieve goals
+28,3,0.228,0,3,feel useless
+29,2,0.265,1,2,angry
+30,2,5.079,0,6,belong in social group
+31,5,0.607,1,4,isolated
+32,5,0.228,0,1,loved
+33,6,0.265,0,1,sad
+34,5,0.303,0,6,have warm relationships
+35,4,0.379,0,5,interested in life
+36,4,4.928,0,6,live a meaningful life

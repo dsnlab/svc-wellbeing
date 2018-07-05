@@ -19,8 +19,8 @@ load('jitter.mat', 'jitter'); % the file that has the jitter delays
 %The below is currently only for your record -- it does not yet change the prompts
 %This needs to contain a number of statements equal to the number of prompt conditions
 promptConditionText={ 
-    'true about me?'
-    'can this change?'};
+    'Usually, I (am)...'
+    'Usually, can change...'};
 
 %END OF USER INPUT
 

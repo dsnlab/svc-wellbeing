@@ -1,0 +1,36 @@
+1,3,0.379,0,3,unhappy
+2,3,0.228,0,4,feel rejected
+3,2,0.303,0,5,have support systems
+4,2,0.379,0,2,trusted
+5,1,0.265,0,5,full of energy
+6,1,5.003,0,2,happy
+7,4,0.228,0,5,satisfied with life
+8,4,0.228,0,3,achieve goals
+9,6,0.455,0,2,anxious
+10,6,0.379,0,5,unable to cope
+11,5,0.607,0,5,comfortable with friends
+12,6,4.965,0,5,feel invisible
+13,3,0.303,0,2,lonely
+14,3,0.303,0,2,tired
+15,1,0.303,0,6,live a purposeful life
+16,1,0.265,0,2,joyful
+17,2,0.265,0,6,have warm relationships
+18,3,5.079,0,5,feel unimportant
+19,6,0.228,0,1,stressed
+20,4,0.455,0,1,proud
+21,5,0.607,0,4,feel encouraged
+22,5,0.265,0,3,am cared for
+23,4,0.265,0,3,capable
+24,6,4.965,0,2,depressed
+25,2,0.228,0,3,have good friends
+26,1,0.265,0,2,cheerful
+27,1,0.228,0,6,live a meaningful life
+28,3,0.265,0,3,overwhelmed
+29,2,0.265,1,5,alienated
+30,2,4.928,0,2,well-liked
+31,5,0.228,0,1,loved
+32,5,0.228,1,3,neglected
+33,6,0.228,0,2,nervous
+34,5,0.228,1,4,isolated
+35,4,0.228,0,3,like myself
+36,4,5.307,0,4,optimistic

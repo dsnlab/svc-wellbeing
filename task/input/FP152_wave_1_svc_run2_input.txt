@@ -1,36 +1,36 @@
-1,3,0.455,0,3,unhappy
-2,3,0.228,0,5,feel unimportant
-3,2,0.228,0,5,have support systems
-4,2,0.379,0,5,comfortable with friends
-5,1,0.228,0,4,optimistic
-6,1,4.928,0,5,satisfied with life
-7,4,0.228,0,2,joyful
-8,4,0.303,0,3,achieve goals
-9,6,0.228,0,2,depressed
-10,6,0.265,0,2,tired
-11,5,0.303,0,1,loved
-12,6,4.965,0,5,feel invisible
-13,3,0.379,0,2,nervous
-14,3,0.265,0,1,stressed
-15,1,0.607,0,5,full of energy
-16,1,0.303,0,2,happy
-17,2,0.379,0,3,have good friends
-18,3,5.307,0,2,anxious
-19,6,0.265,0,3,overwhelmed
-20,4,0.265,0,1,proud
-21,5,0.228,0,2,well-liked
-22,5,0.228,1,3,neglected
-23,4,0.228,0,6,live a meaningful life
-24,6,4.965,0,4,feel rejected
-25,2,0.303,0,3,am cared for
-26,1,0.228,0,6,live a purposeful life
-27,1,0.265,0,3,like myself
-28,3,0.265,0,2,lonely
-29,2,0.303,1,4,isolated
-30,2,5.079,0,6,have warm relationships
-31,5,0.607,1,5,alienated
-32,5,0.265,0,4,feel encouraged
-33,6,0.265,0,5,unable to cope
-34,5,0.228,0,2,trusted
-35,4,0.455,0,3,capable
-36,4,4.965,0,2,cheerful
+1,3,0.379,0,2,anxious
+2,3,0.303,0,2,fearful
+3,2,0.228,0,1,loved
+4,2,0.265,0,2,trusted
+5,1,0.228,0,2,joyful
+6,1,5.003,0,5,interested in life
+7,4,0.265,0,2,hopeful
+8,4,0.265,0,2,happy
+9,6,0.228,0,2,nervous
+10,6,0.228,0,1,sad
+11,5,0.265,0,4,feel encouraged
+12,6,5.079,0,2,lonely
+13,3,0.228,0,4,feel rejected
+14,3,0.265,0,5,unable to cope
+15,1,0.303,0,1,proud
+16,1,0.228,0,3,achieve goals
+17,2,0.265,0,7,have trusting relationships
+18,3,4.928,0,3,overwhelmed
+19,6,0.303,0,5,feel unimportant
+20,4,0.228,0,3,positive
+21,5,0.228,0,6,have warm relationships
+22,5,0.265,0,3,am cared for
+23,4,0.265,0,6,live a meaningful life
+24,6,4.928,0,1,stressed
+25,2,0.379,0,5,comfortable with friends
+26,1,0.607,0,4,engaged in tasks
+27,1,0.228,0,6,live a purposeful life
+28,3,0.607,0,3,feel worthless
+29,2,0.265,0,6,belong in social group
+30,2,4.928,0,3,have good friends
+31,5,0.265,0,3,helped by friends
+32,5,0.455,1,2,angry
+33,6,0.607,0,3,feel useless
+34,5,0.303,1,4,isolated
+35,4,0.379,0,5,satisfied with life
+36,4,5.003,0,3,like myself
